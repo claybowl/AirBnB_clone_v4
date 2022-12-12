@@ -12,7 +12,7 @@ $(document).ready( () => {
       $('div.Amenities h4').text('Amenities: ' + amenities.join(', '));
     });
 
-    $.get('http://0.0.0.0:5001/api/v1/status/', function (data, textStatus) {
+    $.get('http://941ce1b754e9.7399d2e2.hbtn-cod.io:5001/api/v1/status/', function (data, textStatus) {
         if (textStatus === 'success') {
           if (data.status === 'OK') {
             $('#api_status').addClass('available');

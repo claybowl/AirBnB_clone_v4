@@ -10,6 +10,14 @@ header .logo {
     height: 100%;
 }
 
-#api_status.available {
-    background-color: #ff545f;
+header #api_status {
+    margin-right: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #CCCCCC;
+}
+
+.available {
+    background-color: #ff545f !important;
 }
